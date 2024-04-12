@@ -1,0 +1,100 @@
+git init: Inicializa um novo repositório Git.
+git clone: Clona um repositório Git existente.
+git add: Adiciona arquivos ao índice para preparação para o commit.
+git status: Exibe o status das mudanças no diretório de trabalho.
+git commit: Registra as mudanças no repositório.
+git push: Envia commits locais para um repositório remoto.
+git pull: Atualiza o repositório local com as mudanças do repositório remoto.
+git checkout: Altera branches ou restaura arquivos.
+git branch: Lista, cria ou exclui branches.
+git merge: Mescla branches.
+git log: Mostra o histórico de commits.
+git remote: Gerencia repositórios remotos.
+git fetch: Recupera branches e commits de um repositório remoto.
+git rebase: Reaplica commits em cima de outra base.
+git config: Define variáveis de configuração do Git.
+git reset: Desfaz mudanças no índice e no diretório de trabalho.
+git stash: Armazena mudanças temporariamente.
+git tag: Cria, lista ou verifica tags anotadas.
+git diff: Mostra mudanças entre commits, branches etc.
+git rm: Remove arquivos do diretório de trabalho e do índice.
+git mv: Move ou renomeia um arquivo, diretório ou symlink.
+git bisect: Usa a pesquisa binária para encontrar um commit que introduziu um bug.
+git grep: Procura por padrões em arquivos.
+git blame: Mostra quem modificou cada linha de um arquivo, e quando.
+git archive: Cria um arquivo zip ou tar contendo o conteúdo de um repositório.
+git submodule: Gerencia submódulos Git dentro de um repositório.
+git cherry-pick: Escolhe commits individuais para aplicar em outro branch.
+git show: Mostra informações sobre commits, tags ou objetos.
+git describe: Dá uma descrição legível de um commit.
+git revert: Desfaz commits individuais.
+git reflog: Gerencia logs de referência.
+git remote add: Adiciona um novo repositório remoto.
+git remote rm: Remove um repositório remoto.
+git remote rename: Renomeia um repositório remoto.
+git remote show: Mostra informações sobre um repositório remoto.
+git remote update: Atualiza referências locais com referências remotas.
+git remote prune: Remove referências remotas que não existem mais no repositório remoto.
+git push --tags: Envia todas as tags locais para o repositório remoto.
+git push origin --delete: Exclui um branch remoto.
+git push --force: Força o push, substituindo o histórico do repositório remoto.
+git push --all: Envia todos os branches locais para o repositório remoto.
+git fetch --all: Recupera todos os branches de todos os repositórios remotos.
+git fetch --prune: Atualiza referências locais com referências remotas e remove branches excluídos remotamente.
+git merge --abort: Aborta um merge em andamento e restaura o estado pré-merge.
+git merge --squash: Mescla alterações em um único commit.
+git merge --no-ff: Força um merge mesmo que seja um fast-forward.
+git merge --ff-only: Mescla somente quando fast-forward é possível.
+git merge --strategy: Especifica uma estratégia de merge.
+git merge --strategy-option: Define opções adicionais para uma estratégia de merge.
+git merge-base: Encontra o commit base comum de duas branches.
+git rebase --onto: Rebaseia um range de commits em outro ponto.
+git rebase --continue: Continua um rebase após resolver conflitos.
+git rebase --skip: Pula um commit durante um rebase.
+git rebase --abort: Aborta um rebase em andamento.
+git rebase -i: Realiza um rebase interativo.
+git rebase -p: Preserva merges durante um rebase.
+git rebase -m: Realiza um rebase com suporte a merges.
+git rebase -s: Define a estratégia a ser usada durante um rebase.
+git rebase -X: Define opções adicionais para a estratégia de rebase.
+git rebase -C: Reutiliza alterações de um commit existente durante um rebase.
+git cherry: Lista commits que estão na branch atual mas não na branch fornecida.
+git cherry -v: Mostra os diffs dos commits listados pelo git cherry.
+git bisect start: Inicia uma sessão de bisect.
+git bisect bad: Marca um commit como ruim (contendo um bug).
+git bisect good: Marca um commit como bom (sem o bug).
+git bisect reset: Reinicia uma sessão de bisect.
+git log --oneline: Mostra o histórico de commits em uma única linha por commit.
+git log --decorate: Mostra informações adicionais ao lado de cada commit.
+git log --graph: Mostra o histórico de commits em formato gráfico.
+git log --author: Filtra commits por autor.
+git log --grep: Filtra commits por mensagem de commit.
+git log --since: Filtra commits por data.
+git log --until: Filtra commits até uma determinada data.
+git log --format: Define o formato de saída do log.
+git log --stat: Mostra estatísticas de alterações por commit.
+git log --patch: Mostra diffs de cada commit.
+git log --reverse: Mostra commits na ordem inversa.
+git log --follow: Mostra o histórico de um arquivo, mesmo após ser renomeado.
+git log --all: Mostra o histórico de todos os branches.
+git log --graph --all: Mostra o histórico de todos os branches em formato gráfico.
+git log --graph --oneline --decorate --all: Mostra um histórico simplificado e decorado de todos os branches.
+git reflog expire: Remove entradas expiradas do reflog.
+git reflog delete: Remove entradas específicas do reflog.
+git clean: Remove arquivos não rastreados do diretório de trabalho.
+git clean -f: Remove arquivos não rastreados de forma forçada.
+git clean -n: Mostra quais arquivos seriam removidos, mas não os remove de fato.
+git clean -i: Permite interação para escolher quais arquivos não rastreados remover.
+git clean -d: Remove diretórios não rastreados, juntamente com arquivos não rastreados.
+git clean -x: Remove arquivos ignorados juntamente com arquivos não rastreados.
+git blame -L: Mostra quem modificou um intervalo de linhas em um arquivo.
+git blame -C: Mostra quem modificou uma linha, mesmo se ela foi movida para outro arquivo.
+git bisect visualize: Abre uma interface gráfica para ajudar na sessão de bisect.
+git tag -l: Lista todas as tags.
+git tag -a: Cria uma nova tag anotada.
+git tag -d: Exclui uma tag.
+git tag -v: Verifica a assinatura GPG de uma tag.
+git tag -s: Cria uma nova tag assinada digitalmente.
+git tag -n: Mostra a mensagem associada a uma tag.
+git tag -f: Move uma tag existente para um novo commit.
+git tag -u: Especifica a chave GPG a ser usada ao criar uma tag assinada.
